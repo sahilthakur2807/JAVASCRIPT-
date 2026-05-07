@@ -17,10 +17,16 @@
 // - must be initialized immediately
 
 var legacyCount = 1;
-legacyCount = 2;
+console.log(legacyCount); // 1
+
+var legacyCount = 2;
+console.log(legacyCount); // 2
 
 let currentCount = 10;
-currentCount = 11;
+console.log(currentCount); // 10
+
+currentCount = 11; // can reassign but cannot redeclare with let
+console.log(currentCount); // 11
 
 const appName = "Learning JS";
 
@@ -29,6 +35,9 @@ console.log(currentCount);
 console.log(appName);
 
 const user = { name: "Maya" };
+console.log(user);
+
+// Even though user is a const, we can change its properties
 user.name = "Laya";
 console.log(user);
 

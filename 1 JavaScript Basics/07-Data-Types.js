@@ -10,6 +10,24 @@ console.log(typeof null);
 console.log(typeof {});
 console.log(typeof []);
 
+// Primitive types: number, string, boolean, null, undefined, symbol
+// Reference types: objects, arrays, functions
+
+// Example of reference type:
+const person = {
+  name: "Alice",
+  age: 30,
+};
+
+console.log(typeof person); // "object"
+
+// Example of array:
+const numbers = [1, 2, 3];
+console.log(typeof numbers); // "object"
+
+
+
+// Example of function:
 function printType(value) {
   if (Array.isArray(value)) {
     return "array";

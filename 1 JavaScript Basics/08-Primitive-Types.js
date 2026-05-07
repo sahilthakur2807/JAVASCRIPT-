@@ -6,7 +6,7 @@ let text = "hello";
 console.log(text.toUpperCase());
 console.log(text);
 
-text = text.toUpperCase();
+text = text.toUpperCase(); // reassigning text to the new value
 console.log(text);
 
 const age = 25;
@@ -15,7 +15,7 @@ const missingValue = null;
 
 console.log(typeof age);
 console.log(typeof isStudent);
-console.log(missingValue);
+console.log(typeof missingValue);
 
 // Learning tip:
 // Primitive values are copied by value, not by reference.

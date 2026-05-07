@@ -11,7 +11,8 @@ if (0) {
 }
 
 const userInput = "";
-const displayName = userInput || "Guest";
+const userInout2 = "";
+const displayName = userInout2 || userInput || "Guest";
 console.log(displayName);
 
 const count = 0;
