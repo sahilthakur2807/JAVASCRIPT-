@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hello, World!</p>
+    <script>
+        let changetext = document.querySelector('p');
+        changetext.innerHTML = 'Text changed by JS';
+
+
+        let p = document.querySelector('p');
+
+        p.addEventListener('click', () => {
+            p.style.color = 'red';
+            p.textContent = 'You clicked me!';
+        });
+
+    </script>
+</body>
+</html>
